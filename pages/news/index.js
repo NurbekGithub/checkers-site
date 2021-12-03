@@ -43,7 +43,6 @@ export async function getStaticProps() {
 
 export default function NewsPage(props) {
   const { news } = props
-  console.log({news})
   return (
     <div>
       <Head>
