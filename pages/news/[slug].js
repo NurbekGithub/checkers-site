@@ -62,5 +62,5 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const news = await client.getEntries({content_type: "news", 'fields.slug': params.slug})
 
-  return { props: { newsDetails: news.items[0] } }
+  return { props: { newsDetails: news.items[0] }, revalidate: 1 }
 }
