@@ -1,4 +1,3 @@
-import { Button } from '@chakra-ui/button'
 import { Heading } from '@chakra-ui/layout'
 import Head from 'next/head'
 
