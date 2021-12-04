@@ -242,10 +242,6 @@ const NAV_ITEMS = [
         href: "/about",
       },
       {
-        label: "Наши члены",
-        href: "/members",
-      },
-      {
         label: "Правление",
         href: "/board",
       },
