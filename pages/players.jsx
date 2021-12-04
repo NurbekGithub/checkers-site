@@ -13,7 +13,8 @@ export default function PlayersPage(props) {
         <Tr>
           <Th>ФИО</Th>
           <Th>Дата рождения</Th>
-          <Th>Звание</Th>
+          <Th>Разряд</Th>
+          <Th>Результат</Th>
         </Tr>
       </Thead>
       <Tbody>
@@ -22,6 +23,7 @@ export default function PlayersPage(props) {
             <Td>{player.fields.fio}</Td>
             <Td>{player.fields.dob}</Td>
             <Td>{player.fields.title}</Td>
+            <Td>{player.fields.achievement}</Td>
           </Tr>
         ))}
       </Tbody>
