@@ -67,7 +67,6 @@ export default function NewsPage(props) {
             </Heading>
           </NextLink>
           {documentToReactComponents(item.fields.shortContent, richTextOptions)}
-          <p>Click here</p>
         </Box>
       ))}
     </div>
