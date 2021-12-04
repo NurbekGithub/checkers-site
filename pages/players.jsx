@@ -4,7 +4,6 @@ import { client } from "../contentClient";
 
 export default function PlayersPage(props) {
   const {players} = props;
-  console.log({players})
   return <Box>
     <Heading mb={8}>
       Спортсмены
