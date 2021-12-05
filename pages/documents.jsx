@@ -8,7 +8,7 @@ export default function DocumentsPage() {
     </Heading>
     <List mt={2}>
       <ListItem>
-        <Link href="/test.docx" download="test.docx" color="teal.500">Тестовый документ</Link>
+        <Link href="/Календарь 2022 год ШАШКИ.pdf" download="Календарь 2022 год ШАШКИ.pdf" color="teal.500">Календарь 2022 год ШАШКИ.pdf</Link>
       </ListItem>
     </List>
   </Box>
