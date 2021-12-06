@@ -55,12 +55,9 @@ export default function NewsPage(props) {
   const { news } = props;
   return (
     <div>
-      <Head>
-        <title>Новости</title>
-      </Head>
-      <Heading>Новости</Heading>
+      <Heading mb={4}>Новости</Heading>
       {news.items.map((item) => (
-        <Box display="inline-block" width="100%" key={item.sys.id}>
+        <Box mb={4} display="inline-block" width="100%" key={item.sys.id}>
           <NextLink href={`/news/${item.fields.slug}`}>
             <Heading size="md" as={Link} color="teal.500">
               {item.fields.title}

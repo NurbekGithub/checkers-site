@@ -53,9 +53,9 @@ export default function WithSubnavigation() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} align="center" justify={{ base: "start", md: "start" }}>
-          <NextLink href={"/"}>
+          <NextLink href="/news">
             <a>
-              <Image height="32px" src="/logo.jpg" alt="logo" />
+              <Image height="32px" src="/logo.jpeg" alt="logo" />
             </a>
           </NextLink>
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

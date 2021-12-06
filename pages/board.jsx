@@ -21,7 +21,7 @@ export default function BoardPage(props) {
             <HStack spacing={12}>
               <Image w={100} alt={member.fields.fio} src={member.fields.photo.fields.file.url} size="sm" />
               <Stack>
-                <Heading as="h6" size="md">{member.fields.fio} ({member.fields.country})</Heading>
+                <Heading as="h6" size="md">{member.fields.fio}</Heading>
                 <Text>{member.fields.title}</Text>
               </Stack>
             </HStack>
