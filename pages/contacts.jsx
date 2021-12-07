@@ -7,5 +7,6 @@ export default function ContactsPage() {
     </Heading>
 
     <Text>email: <Link color="teal.500" href="mailto:Draughtskz@mail.ru">Draughtskz@mail.ru</Link></Text>
+    <Text>instagram: <Link color="teal.500" href="https://www.instagram.com/shashki_kazakhstan">shashki_kazakhstan</Link></Text>
   </Box>
 }
